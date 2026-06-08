@@ -15,7 +15,7 @@ import {
   MessageCircle,
 } from 'lucide-react'
 
-const WHATSAPP = '5500000000000' // TODO: substituir pelo número real
+const WHATSAPP = '5548999136802'
 const WHATSAPP_MSG = encodeURIComponent('Olá! Vim pelo site e gostaria de um orçamento.')
 const INSTAGRAM = 'https://www.instagram.com/exclusivaporcelanatos/'
 
