@@ -100,7 +100,7 @@ export default function App() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
           <a href="#hero" className="flex items-center gap-3">
-            <img src="/images/logo.png" alt="Exclusiva Porcelanatos" className="h-12 w-auto" />
+            <img src="/images/logo.png" alt="Exclusiva Porcelanatos" className="h-12 w-auto rounded-full" />
           </a>
 
           <nav className="hidden items-center gap-8 md:flex">
@@ -155,7 +155,7 @@ export default function App() {
               className="absolute inset-y-0 right-0 w-72 bg-white shadow-2xl"
             >
               <div className="flex items-center justify-between border-b border-gray-100 px-6 py-5">
-                <img src="/images/logo.png" alt="Exclusiva Porcelanatos" className="h-10" />
+                <img src="/images/logo.png" alt="Exclusiva Porcelanatos" className="h-10 rounded-full" />
                 <button onClick={() => setMenuOpen(false)}>
                   <X size={24} className="text-[#111]" />
                 </button>
