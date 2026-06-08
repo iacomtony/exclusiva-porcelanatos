@@ -193,7 +193,7 @@ export default function App() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/instagram/img2.jpg')" }}
+          style={{ backgroundImage: "url('/images/hero.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
 
@@ -458,7 +458,7 @@ export default function App() {
             <div className="relative">
               <div className="overflow-hidden rounded-3xl shadow-2xl">
                 <img
-                  src="/images/instagram/img9.jpg"
+                  src="/images/sobre.jpg"
                   alt="Sobre a Exclusiva"
                   className="w-full object-cover"
                 />
@@ -604,7 +604,9 @@ export default function App() {
       <footer className="bg-[#111] py-12 text-white">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
-            <img src="/images/logo.png" alt="Exclusiva Porcelanatos" className="h-14 brightness-0 invert" />
+            <div className="rounded-2xl bg-white px-4 py-2">
+                <img src="/images/logo.png" alt="Exclusiva Porcelanatos" className="h-12 w-auto" />
+              </div>
             <div className="flex gap-6 text-sm text-white/50">
               {navLinks.map((link) => (
                 <a key={link.href} href={link.href} className="hover:text-white transition-colors">
